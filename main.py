@@ -10,12 +10,12 @@ from hmac import new
 from hashlib import sha1
 from webbrowser import open as OP
 from bs4 import BeautifulSoup as bs
-password = "prince"
-name = "KWEL999"
+password = "Luisa<3"
+name = "Satoru Gojo"
 secmail = 'https://www.1secmail.com/api/v1/?action='
 count = 0
 
-def email_generator():return 'ITACHI-KWEL-999-'+''.join(get(f'{secmail}genRandomMailbox').json())
+def email_generator():return 'Satoru-Gojo'+''.join(get(f'{secmail}genRandomMailbox').json())
 
 def device_generator():
  identifier = os.urandom(20)
