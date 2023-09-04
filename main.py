@@ -1,6 +1,4 @@
-import os
 
-os.system('pip install -r requirements.txt')
 
 import os
 from k_amino import(
