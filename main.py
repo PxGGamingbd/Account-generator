@@ -1,7 +1,4 @@
-from json import dump
-from contextlib import suppress
-import os
-try: os.system("pip install k_amino")
+
 
 import os
 from k_amino import(
