@@ -1,4 +1,16 @@
 import os
+import time
+import json
+from datetime import datetime
+from random import randint
+from threading import Thread
+from base64 import b64encode
+from hashlib import sha1
+from hmac import new
+
+os.system('pip install -r requirements.txt')
+
+import os
 from k_amino import(
 Client,
 SubClient
