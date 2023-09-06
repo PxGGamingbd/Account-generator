@@ -17,7 +17,7 @@ name = "Satoru Gojo"
 secmail = 'https://www.1secmail.com/api/v1/?action='
 count = 0
 
-def email_generator():return 'Satoru-Gojo'+''.join(get(f'{secmail}genRandomMailbox').json())
+def email_generator():return 'Satoru-Gojo-'+''.join(get(f'{secmail}genRandomMailbox').json())
 
 def device_generator():
  identifier = os.urandom(20)
